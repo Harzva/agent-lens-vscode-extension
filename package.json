@@ -2,7 +2,7 @@
   "name": "agent-lens-vscode-extension",
   "displayName": "Agent Lens",
   "description": "A simple VS Code extension scaffold for Agent Lens preview harness.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "your-name",
   "engines": {
     "vscode": "^1.60.0"
@@ -21,5 +21,13 @@
   },
   "scripts": {
     "test": "echo 'No tests yet'"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harzva/agent-lens-vscode-extension.git"
+  },
+  "license": "MIT",
+  "categories": [
+    "Other"
+  ]
 }
