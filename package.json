@@ -1,0 +1,25 @@
+{
+  "name": "agent-lens-vscode-extension",
+  "displayName": "Agent Lens",
+  "description": "A simple VS Code extension scaffold for Agent Lens preview harness.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onCommand:agentLens.runPreview"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "agentLens.runPreview",
+        "title": "Agent Lens: Run Preview"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo 'No tests yet'"
+  }
+}
