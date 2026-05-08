@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+*.vsix
+
+# VS Code configuration
+.vscode/
+
+# Logs
+*.log
